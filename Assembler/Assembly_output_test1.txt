@@ -1,0 +1,13 @@
+Assembly Instructions
+1 PUSHM 10001
+2 PUSHM 10002
+3 GRT 0
+4 JUMPZ 7
+5 PUSHM 10002
+6 POPM 10001
+7 LABEL 0
+8 PUSHM 10002
+9 STDOUT 0
+Symbol Table
+Name: a, Type: integer, Memory: 10001
+Name: b, Type: integer, Memory: 10002

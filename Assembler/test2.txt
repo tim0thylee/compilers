@@ -1,0 +1,14 @@
+%%
+/* declarations */
+integer a;
+integer b;
+integer c;   
+integer d;
+integer e;
+get(e);
+
+if (a < b)  a =  c;
+endif
+e = c + d;
+put(e);
+%%

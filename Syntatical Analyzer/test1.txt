@@ -1,0 +1,8 @@
+/* loop statement */
+%%
+integer i;
+boolean isTrue;
+integer sum;
+if(b < d) put(b); endif
+i=5;
+%%

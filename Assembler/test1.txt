@@ -1,0 +1,6 @@
+%%
+integer a;
+integer b;
+if(a > b) a = b; endif
+put(b);
+%%

@@ -1,0 +1,25 @@
+%%
+integer i;
+integer sum;
+i = 10;
+sum = 0;
+isTrue = false;
+while(sum < -5) 
+begin
+ get(sum);
+end
+if(i /= sum) 
+ i = sum; 
+ else 
+ isTrue = false; 
+endif
+sum = sum * i;
+sum = -(sum + sum);
+put(sum);
+while(sum == 43)
+begin
+ /* Error should be here */
+ put(32);
+end
+integer shouldNotReachHere = 52;
+%%

@@ -1,0 +1,23 @@
+%%
+boolean isTrue;
+integer a;
+integer b;
+integer c;
+integer d;
+isTrue = true;
+get(a);
+get(b);
+get(c);
+d = 55;
+while (isTrue == true)
+begin
+ d = a *b;
+ if (d > 189) 
+ isTrue = false;
+ endif
+end
+d = (d + c) / 5;
+if (d /= 277)
+ put(d);
+endif
+%%

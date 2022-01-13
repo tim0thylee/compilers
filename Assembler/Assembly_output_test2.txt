@@ -1,0 +1,22 @@
+Assembly Instructions
+1 STDIN 0
+2 POPM 10005
+3 PUSHM 10001
+4 PUSHM 10002
+5 LES 0
+6 JUMPZ 9
+7 PUSHM 10003
+8 POPM 10001
+9 LABEL 0
+10 PUSHM 10003
+11 PUSHM 10004
+12 ADD 0
+13 POPM 10005
+14 PUSHM 10005
+15 STDOUT 0
+Symbol Table
+Name: a, Type: integer, Memory: 10001
+Name: b, Type: integer, Memory: 10002
+Name: c, Type: integer, Memory: 10003
+Name: d, Type: integer, Memory: 10004
+Name: e, Type: integer, Memory: 10005
